@@ -1,0 +1,23 @@
+[Unit]
+Description=docker-example
+After=docker.service
+Wants=docker.service
+
+[Service]
+TimeoutStartSec=infinity
+TimeoutStopSec=15
+Restart=always
+RestartSec=2s
+
+ExecStartPre=-/usr/bin/docker stop alpine-test
+ExecStartPre=-/usr/bin/docker rm alpine-test
+ExecStartPre=/usr/bin/docker pull nginx:alpine
+
+ExecStart=/usr/bin/docker run --rm --name "alpine-test" \
+-p 8080:80 \
+nginx:alpine
+
+ExecStop=/usr/bin/docker stop alpine-test
+
+[Install]
+WantedBy=multi-user.target
