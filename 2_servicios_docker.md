@@ -28,6 +28,21 @@ No hace falta instalar nada. Esta todo contenido en un Docker :fire:
 
 ----
 
+### Cómo sería desplegar Wordpress sin docker
+
+1. Instalar Apache
+2. Configurar Apache
+3. Instalar MySQL
+4. Configurar MySQL
+5. Instalar PHPMyadmin
+6. Configurar PHPMyadmin
+7. Descargar Wordpress
+8. Instalar wordpress en Apache
+
+😳
+
+----
+
 ### Utilizando Docker Compose
 
 Útil, pero no está pensado para mantener el servicio a largo plazo
