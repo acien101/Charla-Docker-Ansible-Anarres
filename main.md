@@ -7,7 +7,9 @@ revealOptions:
 ---
 
 
-# ANARRES: DESPLEGANDO SERVICIOS CON ANSIBLE
+# ANARRES
+
+### DESPLEGANDO SERVICIOS CON ANSIBLE
 
 Charla taller en el que explicaremos como levantar servicios con Docker utilizando Ansible
 

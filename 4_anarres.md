@@ -1,3 +1,11 @@
+---
+title: 4a parte - Anarres
+author: Fran Acién y M0wer
+theme: solarized
+revealOptions:
+    transition: 'slide'
+---
+
 ## Anarres
 
 Juntando un batiburrillo de lo anterior sale [anarres-org/anarres: An ansible
