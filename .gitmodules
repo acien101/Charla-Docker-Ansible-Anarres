@@ -1,0 +1,3 @@
+[submodule "ejemplos/3_ansible_docker/roles/generic_docker_systemd"]
+	path = ejemplos/3_ansible_docker/roles/generic_docker_systemd
+	url = https://github.com/anarres-org/generic_docker_systemd
