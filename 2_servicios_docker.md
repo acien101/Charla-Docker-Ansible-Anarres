@@ -16,7 +16,7 @@ Miles de dockers en [Docker Hub](https://hub.docker.com/).
 
 Algunos ejemplos interesantes: [Gitea](https://docs.gitea.io/), [Drone](https://drone.io/), [CodiMD](https://github.com/hackmdio/codimd), [OpenVPN](https://openvpn.net/), [Nextcloud](https://nextcloud.com/), etc.
 
-No hace falta instalar nada. Esta todo contenido en un Docker :fire:
+No hace falta instalar nada. Esta todo contenido en un Docker :fire:.
 
 ----
 
@@ -55,8 +55,12 @@ $ docker-compose up
 
 ----
 
-#### Ventajas de administrar contenedores con Systemd vs Docker
+#### Ventajas de administrar contenedores con Systemd
 
-* Todo está en los logs del sistema
-* TODO: M0wer ayudame con esto
+Systemd es el gestor de servicios por defecto de la mayoría de distribuciones
+GNU/Linux. Ventajas de gestionar con Systemd servicios basados en Docker:
 
+* Integración con otros servicios. Gestión de dependencias: quiere (Wants),
+  después de (After)...
+* Registros (logs) centralizados en el sistema.
+* Configuraciones estandarizadas para todo tipo de servicios.
